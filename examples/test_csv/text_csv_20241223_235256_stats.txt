@@ -1,0 +1,65 @@
+
+=== Analysis Statistics for text_csv.csv ===
+
+--- Code Length Statistics ---
+
+Length Distribution:
+count      1532.000000
+mean      32908.118146
+std      110441.315040
+min          19.000000
+25%        1029.750000
+50%        1792.500000
+75%        4141.500000
+max      765201.000000
+dtype: float64
+
+Line Count Distribution:
+count     1532.000000
+mean       607.063316
+std       1867.047778
+min          2.000000
+25%         45.000000
+50%         73.000000
+75%        144.000000
+max      16117.000000
+dtype: float64
+
+Line Length Statistics:
+Average line length: 53.21 characters
+Median line length: 56.00 characters
+Shortest line: 0.0 characters
+Longest line: 3049.0 characters
+Standard deviation: 27.45 characters
+Files with long lines (>80 chars): 695 (45.37%)
+Total long lines: 34144
+
+--- Code Complexity Statistics ---
+
+Line Type Ratios (mean):
+Blank Lines: 13.52%
+Comment Lines: 21.16%
+Code Lines: 65.32%
+
+--- Code Duplication Statistics ---
+
+Line-level Duplication:
+Average duplication ratio: 19.89%
+Median duplication ratio: 12.20%
+Files with high duplication: 316 (20.63%)
+
+--- Code Entropy Statistics ---
+
+Global Entropy Statistics:
+Mean: 0.354
+Median: 0.365
+Std: 0.158
+Min: -0.000
+Max: 0.697
+
+Top 5 Most Used Verilog Blocks:
+  port_def: 13624 occurrences
+  if_else: 8476 occurrences
+  wire_def: 5023 occurrences
+  assign: 4059 occurrences
+  module_def: 3209 occurrences

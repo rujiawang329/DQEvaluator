@@ -1,0 +1,265 @@
+{
+    "length_stats": {
+        "length_distribution": {
+            "count": 1532.0,
+            "mean": 32908.118146214096,
+            "std": 110441.31504013654,
+            "min": 19.0,
+            "25%": 1029.75,
+            "50%": 1792.5,
+            "75%": 4141.5,
+            "max": 765201.0
+        },
+        "line_count_distribution": {
+            "count": 1532.0,
+            "mean": 607.063315926893,
+            "std": 1867.0477775261245,
+            "min": 2.0,
+            "25%": 45.0,
+            "50%": 73.0,
+            "75%": 144.0,
+            "max": 16117.0
+        },
+        "line_length_stats": {
+            "mean": 53.210355465091645,
+            "std": 27.454999007547507,
+            "min": 0.0,
+            "max": 3049.0,
+            "median": 56.0,
+            "total_files": 1532,
+            "files_with_long_lines": 695,
+            "total_long_lines": 34144,
+            "long_lines_count": 695,
+            "long_lines_ratio": 0.4536553524804178
+        }
+    },
+    "complexity_stats": {
+        "blank_lines_ratio": {
+            "mean": 0.13522012118665977,
+            "std": 0.08050739239549069,
+            "min": 0.0,
+            "max": 0.5
+        },
+        "comment_lines_ratio": {
+            "mean": 0.2116161265515267,
+            "std": 0.16958349006643744,
+            "min": 0.0,
+            "max": 0.9029126213592233
+        },
+        "code_lines_ratio": {
+            "mean": 0.6531637522618136,
+            "std": 0.20228832773612757,
+            "min": 0.06310679611650485,
+            "max": 1.0
+        }
+    },
+    "duplication_stats": {
+        "line_level": {
+            "ratios": {
+                "mean": 0.19892533510786975,
+                "std": 0.22206728449992205,
+                "min": 0.0,
+                "max": 0.9424503114802729,
+                "median": 0.12195121951219512
+            },
+            "patterns": {
+                "mean": 33.8009138381201,
+                "std": 92.9679339098021,
+                "min": 0.0,
+                "max": 659.0,
+                "median": 5.0
+            },
+            "pattern_types": {
+                "variable": 28446,
+                "number": 3518,
+                "mixed": 13349,
+                "other": 6470
+            },
+            "top_patterns": [
+                {
+                    "pattern": ");",
+                    "example": "         );",
+                    "count": 1521
+                },
+                {
+                    "pattern": "OAI22X1TS VAR ( .VAR(VAR), .VAR(VAR), .VAR(VAR), .VAR(VAR), .Y(VAR)",
+                    "example": "  OAI22X1TS U1128 ( .A0(n6071), .A1(n3253), .B0(n4687), .B1(n3613), .Y(n3620)",
+                    "count": 1309
+                },
+                {
+                    "pattern": "XNOR2X1TS VAR ( .A(VAR), .B(VAR), .Y(VAR) );",
+                    "example": "  XNOR2X1TS U720 ( .A(n8204), .B(n8203), .Y(n8205) );",
+                    "count": 1293
+                },
+                {
+                    "pattern": "VAR) );",
+                    "example": "        DP_OP_169J44_123_4229_n869) );",
+                    "count": 1186
+                },
+                {
+                    "pattern": "wire VAR;",
+                    "example": "  wire S_B0__30_carry__1_i_11__0_n_0;",
+                    "count": 1157
+                }
+            ],
+            "high_duplication_count": 316,
+            "total_files": 1532
+        },
+        "block_level": {
+            "total_blocks": 275,
+            "top_blocks": [
+                {
+                    "size": 3,
+                    "count": 69,
+                    "example": "         n1025, n1026, n1027, n1028, n1029, n1030, n1031, n1032, n1033, n1035,\n         n1036, n1037, n1038, n1039, n1040, n1041, n1042, n1043, n1044, n1045,\n         n1046, n1047, n1048, n1049, n1050, n1051, n1052, n1053, n1054, n1055,"
+                },
+                {
+                    "size": 3,
+                    "count": 48,
+                    "example": "         n1734, n1735, n1736, n1737, n1738, n1739, n1740, n1741, n1742, n1743,\n         n1744, n1745, n1746, n1747, n1748, n1749, n1750, n1751, n1752, n1753,\n         n1754, n1755, n1756, n1757, n1758, n1759, n1760, n1761, n1762, n1763,"
+                },
+                {
+                    "size": 3,
+                    "count": 26,
+                    "example": "  DFFSX1TS R_39 ( .D(n3054), .CK(clk), .SN(n2773), .Q(n2945) );\n  DFFSX1TS R_40 ( .D(n3053), .CK(clk), .SN(n2977), .Q(n2944) );\n  DFFSX1TS R_41 ( .D(n3052), .CK(clk), .SN(n2774), .Q(n2943) );"
+                },
+                {
+                    "size": 3,
+                    "count": 16,
+                    "example": "         n1010, n1011, n1012, n1013, n1014, n1015, n1016, n1017, n1018, n1019,\n         n1020, n1021, n1022, n1023, n1024, n1025, n1026, n1027, n1028, n1029,\n         n1030, n1031, n1032, n1033, n1034, n1035, n1036, n1037, n1038, n1039,"
+                },
+                {
+                    "size": 3,
+                    "count": 15,
+                    "example": "output wire[33:0] pp0;\noutput wire[33:0] pp1;\noutput wire[33:0] pp2;"
+                }
+            ],
+            "sample_size": 30,
+            "config": {
+                "min_block_size": 3,
+                "max_block_size": 20,
+                "min_file_lines": 10
+            }
+        }
+    },
+    "entropy_stats": {
+        "global_entropy_stats": {
+            "mean": 0.35432883728396586,
+            "std": 0.15803812939630507,
+            "min": -0.0,
+            "max": 0.6972764200351866,
+            "median": 0.36528475259778925
+        },
+        "block_stats": {
+            "total_blocks": 41394,
+            "block_counts": {
+                "always_ff": 19,
+                "always_posedge": 1248,
+                "always_negedge": 44,
+                "always_comb": 42,
+                "assign": 4059,
+                "case": 435,
+                "if_else": 8476,
+                "reg_def": 1183,
+                "wire_def": 5023,
+                "logic_def": 286,
+                "port_def": 13624,
+                "parameter_def": 1018,
+                "localparameter": 263,
+                "module_def": 3209,
+                "function_def": 295,
+                "task_def": 181,
+                "generate": 202,
+                "initial": 1536,
+                "assert": 12,
+                "property": 55,
+                "typedef": 96,
+                "enum": 31,
+                "struct": 57
+            },
+            "block_type_counts": {
+                "Sequential": 1311,
+                "Combinational": 13012,
+                "Data Types": 6492,
+                "Module Interface": 14905,
+                "Design Structure": 3887,
+                "Verification": 1603,
+                "Others": 184
+            },
+            "top_blocks": [
+                {
+                    "block": "port_def",
+                    "count": 13624
+                },
+                {
+                    "block": "if_else",
+                    "count": 8476
+                },
+                {
+                    "block": "wire_def",
+                    "count": 5023
+                },
+                {
+                    "block": "assign",
+                    "count": 4059
+                },
+                {
+                    "block": "module_def",
+                    "count": 3209
+                },
+                {
+                    "block": "initial",
+                    "count": 1536
+                },
+                {
+                    "block": "always_posedge",
+                    "count": 1248
+                },
+                {
+                    "block": "reg_def",
+                    "count": 1183
+                },
+                {
+                    "block": "parameter_def",
+                    "count": 1018
+                },
+                {
+                    "block": "case",
+                    "count": 435
+                }
+            ]
+        },
+        "config": {
+            "block_weights": {
+                "always_ff": 2.0,
+                "always_posedge": 1.8,
+                "always_negedge": 1.8,
+                "always_comb": 1.8,
+                "assign": 1.5,
+                "case": 1.6,
+                "if_else": 1.4,
+                "reg_def": 1.2,
+                "wire_def": 1.2,
+                "logic_def": 1.2,
+                "port_def": 1.5,
+                "parameter_def": 1.4,
+                "localparameter": 1.3,
+                "module_def": 2.0,
+                "function_def": 1.7,
+                "task_def": 1.7,
+                "generate": 1.6,
+                "initial": 1.3,
+                "assert": 1.4,
+                "property": 1.5,
+                "typedef": 1.3,
+                "enum": 1.4,
+                "struct": 1.5
+            },
+            "window_size": 50,
+            "thresholds": {
+                "low_entropy": 0.3,
+                "high_entropy": 0.7
+            }
+        }
+    }
+}
