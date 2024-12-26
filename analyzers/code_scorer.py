@@ -1,3 +1,10 @@
+"""
+Copyright (c) 2024 Rujia Wang
+
+This file is part of DQEvaluator, licensed under custom license.
+See LICENSE file in the project root for license information.
+"""
+
 """代码质量打分器"""
 import numpy as np
 from config.scoring_config import SCORING_CONFIG

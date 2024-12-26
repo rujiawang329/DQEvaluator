@@ -261,7 +261,7 @@ For permissions and inquiries, please contact: rujiawang329@gmail.com
 
 ## Version History
 
-### v1.0.0 (2024-01)
+### v1.0.0 (2024-12)
 - Initial release of DQEvaluator
 - Multi-dimensional code analysis system
   - Code length analysis
@@ -584,7 +584,7 @@ Copyright (c) 2024 Rujia Wang
 
 ## 版本历史
 
-### v1.0.0 (2024-01)
+### v1.0.0 (2024-12)
 - DQEvaluator首次发布
 - 多维度代码分析系统
   - 代码长度分析

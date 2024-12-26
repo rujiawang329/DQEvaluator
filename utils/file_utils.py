@@ -1,3 +1,9 @@
+"""
+Copyright (c) 2024 Rujia Wang
+
+This file is part of DQEvaluator, licensed under custom license.
+See LICENSE file in the project root for license information.
+"""
 """文件处理相关的工具函数"""
 import os
 import pandas as pd

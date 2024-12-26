@@ -1,3 +1,10 @@
+"""
+Copyright (c) 2024 Rujia Wang
+
+This file is part of DQEvaluator, licensed under custom license.
+See LICENSE file in the project root for license information.
+"""
+
 """代码复杂度分析器"""
 import numpy as np
 from utils.code_utils import preprocess_code, is_comment_line, is_blank_line

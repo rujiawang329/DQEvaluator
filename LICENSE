@@ -1,0 +1,38 @@
+Copyright (c) 2024 Rujia Wang
+
+DQEvaluator License
+
+Permission is hereby granted, free of charge, to individuals for academic research and personal learning purposes only, subject to the following conditions:
+
+1. Permitted Uses:
+   - Personal learning
+   - Academic research
+   - Non-commercial sharing and usage
+   - Code contributions through pull requests
+
+2. Prohibited Uses:
+   This software may not be used for any commercial purposes, including but not limited to:
+   - Sales
+   - Rentals
+   - Commercial services
+   - Any other commercial exploitation
+
+3. Academic Citation Requirements:
+   Any academic work that uses this software must cite it using the following format:
+
+   @misc{dqevaluator2024,
+     author = {Wang, Rujia},
+     title = {DQEvaluator: Quality Assessment Tool for LLM Training Datasets},
+     year = {2024},
+     publisher = {GitHub},
+     url = {https://github.com/rujiawang329/DQEvaluator}
+   }
+
+4. Copyright Notice:
+   - This copyright notice must be included in all copies or substantial portions of the software
+   - All modifications must retain this notice
+
+5. Disclaimer:
+   THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+For licensing inquiries or questions, please contact: rujiawang329@gmail.com

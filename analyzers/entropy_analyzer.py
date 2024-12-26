@@ -1,3 +1,10 @@
+"""
+Copyright (c) 2024 Rujia Wang
+
+This file is part of DQEvaluator, licensed under custom license.
+See LICENSE file in the project root for license information.
+"""
+
 """Verilog代码熵分析器"""
 import numpy as np
 from collections import Counter, defaultdict

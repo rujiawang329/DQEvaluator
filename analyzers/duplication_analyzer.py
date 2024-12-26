@@ -1,3 +1,10 @@
+"""
+Copyright (c) 2024 Rujia Wang
+
+This file is part of DQEvaluator, licensed under custom license.
+See LICENSE file in the project root for license information.
+"""
+
 """代码重复分析器"""
 from collections import defaultdict
 import numpy as np
