@@ -202,11 +202,10 @@ Copyright (c) 2024 Rujia Wang
 This software and associated documentation are for academic research and personal learning only.
 
 ### Terms of Use
-- Permitted: Personal learning, academic research, non-commercial sharing and use
+- Permitted: Personal learning, academic research, non-commercial sharing and use, code contributions through pull requests
 - Prohibited: Any commercial use, including but not limited to: sales, rental, commercial services, etc.
 - Required:
-  1. Written permission must be obtained from the author before any use
-  2. Any academic work using this software must properly cite it as follows:
+  1. Any academic work using this software must properly cite it as follows:
      ```
      @misc{dqevaluator2024,
        author = {Wang, Rujia},
@@ -216,7 +215,7 @@ This software and associated documentation are for academic research and persona
        url = {https://github.com/rujiawang329/DQEvaluator}
      }
      ```
-  3. This copyright notice must be retained in any use
+  2. This copyright notice must be retained in any use
 
 For permissions and inquiries, please contact: rujiawang329@gmail.com
 
@@ -526,11 +525,10 @@ Copyright (c) 2024 Rujia Wang
 本软件及其相关文档仅限于学术研究和个人学习使用。
 
 ### 使用条款
-- 允许：个人学习、学术研究、非商业性分享和使用
+- 允许：个人学习、学术研究、非商业性分享和使用、通过pull requests贡献代码
 - 禁止：任何商业用途，包括但不限于：销售、出租、商业服务等
 - 要求：
-  1. 在使用本软件之前，必须获得作者的书面许可
-  2. 在任何学术工作中使用本软件，必须按照以下格式引用：
+  1. 在任何学术工作中使用本软件，必须按照以下格式引用：
      ```
      @misc{dqevaluator2024,
        author = {Wang, Rujia},
@@ -540,7 +538,7 @@ Copyright (c) 2024 Rujia Wang
        url = {https://github.com/rujiawang329/DQEvaluator}
      }
      ```
-  3. 在任何使用中必须保留本版权声明
+  2. 在任何使用中必须保留本版权声明
 
 如需获得许可或有任何疑问，请联系：rujiawang329@gmail.com
 
